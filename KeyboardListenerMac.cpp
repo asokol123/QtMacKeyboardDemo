@@ -51,7 +51,9 @@ CGEventRef CKeyboardListenerMac::CallbackFunction(
         emit signalKeyboardMessage("KeyUp");
         break;
     default:
-        throw std::runtime_error("Unknown event type, something went wrong");
+        // igonre mouse events and etc.
+        // throw std::runtime_error("Unknown event type, something went wrong");
+        break;
     }
     return event;
 }
