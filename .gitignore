@@ -27,6 +27,7 @@ Makefile*
 *.prl
 *.app
 moc_*.cpp
+moc_*.h
 ui_*.h
 qrc_*.cpp
 Thumbs.db
@@ -34,6 +35,8 @@ Thumbs.db
 *.rc
 /.qmake.cache
 /.qmake.stash
+
+QtKeyboard_x86_64.pch
 
 # qtcreator generated files
 *.pro.user*
